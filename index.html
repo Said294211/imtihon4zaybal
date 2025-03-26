@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="favicon.png" type="image/x-icon">
+    <title>Shiny_Migom</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="tailwind.config.js">
+</head>
+
+<body class="bg-white">
+
+    <header class="flex container">
+        <div class="w-[50%] flex items-center gap-16 border-gray-200 border-[1.5px]">
+            <select class="ml-[300px]">
+                <option>Санкт-Перетбург</option>
+                <option>Москва</option>
+            </select>
+            <ul class="flex items-center gap-12">
+                <li class="border-black hover:border-[3.5px] rounded-3xl px-[10px] py-[10px] transition-all">Доставка
+                </li>
+                <li class="border-black hover:border-[3.5px] rounded-3xl px-[10px] py-[10px] transition-all">Отзывы</li>
+                <li class="border-black hover:border-[3.5px] rounded-3xl px-[10px] py-[10px] transition-all">Покупателям
+                </li>
+            </ul>
+        </div>
+        <div class="w-[50%] flex items-center gap-16 border-gray-200 border-[1.5px]">
+            <input type="text" placeholder="Поиск сайту"class="ml-2 mr-[320px] text-gray-300 py-[12px]">
+
+            <div class="flex items-center gap-[35px]">
+                <img src="Search.png" alt="">
+                <img src="./2025-03-21_11-44-11.png" alt="" class="w-[156px] h-[52px]">
+                <img src="Group 120.png" alt="">
+            </div>
+        </div>
+    </header>
+    <section class="container flex items-center gap-[300px]">
+        <div class="flex items-center gap-8 ml-[300px]">
+            <img src="image 3.png" alt="">
+            <img src="image 25.png" alt="">
+        </div>
+        <div data-aos="fade-up" class="flex items-center gap-20">
+            <img src="Group 149.png" alt="">
+            <img src="Group 150.png" alt="">
+            <img src="./2025-03-21_12-14-43.png" alt="" class="h-[60px] w-[220px]">
+        </div>
+    </section>
+    <section class="container h-[55px] bg-black">
+        <div>
+        <ul class="flex items-center gap-[160px] ml-[200px] pt-3">
+            <li class="text-white font-normal hover:text-yellow-400 transition-all"><a href="">ШИНЫ</a></li>
+            <li class="text-white font-normal hover:text-yellow-400 transition-all"><a href="">ГРУЗОВЫЕ ШИНЫ</a></li>
+            <li class="text-white font-normal hover:text-yellow-400 transition-all"><a href="">МОТОШИНЫ</a></li>
+            <li class="text-white font-normal hover:text-yellow-400 transition-all"><a href="">ДИСКИ</a></li>
+            <li class="text-white font-normal hover:text-yellow-400 transition-all"><a href="">ПУНКТЫ ВЫДАЧИ</a></li>
+            <li class="text-white font-normal hover:text-yellow-400 transition-all"><a href="">АКЦИИ</a></li>
+            <li class="text-white font-normal hover:text-yellow-400 transition-all"><a href="">КОНТАКТЫ</a></li>
+        </ul>
+    </div>
+    </section>
+    <section class="container">
+        <div class="flex">
+            <div>
+                <div class="flex ml-[200px]">
+                    <div class="bg-[#FADE56] flex gap-1 w-[390px] h-[60px] mt-[70px] rounded-ss-[10px] items-center">
+                        <img src="car-wheel 1.png" alt="" class="w-[26px] h-[26px]  ml-[60px]">
+                        <h6 class=" ml-1">Подбор шин по типоразмеру</h6>
+                    </div>
+                    <div
+                        class="bg-[#F8F8F8] w-[180px] h-[60px] mt-[70px] rounded-se-[10px] items-center border-[2px] border-[#E6E9EC]">
+                        <h6 class="text-[#8E9499] ml-[50px] mt-[18px]">По авто</h6>
+                    </div>
+                </div>
+                <div class="w-[570px] h-[280px] bg-[#F8F8F8] border-[2px] border-[#E6E9EC] ml-[200px]">
+                    <div class="flex flex-wrap gap-[12px] mt-[20px]">
+                        <select class="w-[150px] h-[50px] bg-[#FFFFFF] rounded-[10px] ml-[20px]">
+                            <option value="">Ширина</option>
+                            <option value=""></option>
+                        </select>
+                        <select class="w-[150px] h-[50px] bg-[#FFFFFF] rounded-[10px]">
+                            <option value="">Высота</option>
+                            <option value=""></option>
+                        </select>
+                        <select class="w-[150px] h-[50px] bg-[#FFFFFF] rounded-[10px]">
+                            <option value="">Диаметр</option>
+                            <option value=""></option>
+                        </select>
+                    </div>
+                    <div class=" flex flex-wrap gap-[12px] mt-[20px]">
+                        <select class="w-[150px] h-[50px] bg-[#FFFFFF] rounded-[10px] ml-[20px]">
+                            <option value="">Производитель</option>
+                            <option value=""></option>
+                        </select>
+                        <select class="w-[150px] h-[50px] bg-[#FFFFFF] rounded-[10px]">
+                            <option value="">Сезон</option>
+                            <option value=""></option>
+                        </select>
+                        <select class="w-[150px] h-[50px] bg-[#FFFFFF] rounded-[10px]">
+                            <option value="">Вн-ий Диаметр</option>
+                            <option value=""></option>
+                        </select>
+                    </div>
+                    <div class="flex  gap-[60px]">
+                        <div>
+                            <input type="radio" class="mt-[30px] ml-[20px] hover:bg-yellow">
+                            <label for="" class="text-[E6E9EC]">Спорт-пакет</label>
+                        </div>
+                        <div>
+                            <input type="radio" class="mt-[20px] ml-[20px] hover:bg-yellow">
+                            <label for="" class="text-[E6E9EC]">Run Flat</label>
+                        </div>
+                        <div>
+                            <input type="radio" class="mt-[20px] ml-[20px] hover:bg-yellow">
+                            <label for="" class="text-[E6E9EC]">Усыпанность (c)</label>
+                        </div>
+                    </div>
+                    <button
+                        class=" ml-[20px] mt-[34px] w-[130px] h-[40px] bg-[#F4D84F] rounded-[10px] hover:bg-yellow-600">
+                        <h6>Подобрать</h6>
+                    </button>
+                </div>
+            </div>
+            <div>
+                <div class="flex ml-[200px]">
+                    <div class="bg-[#FADE56] flex gap-1 w-[390px] h-[60px] mt-[70px] rounded-ss-[10px] items-center">
+                        <img src="car-wheel 1.png" alt="" class="w-[26px] h-[26px]  ml-[60px]">
+                        <h6 class=" ml-1">Подбор шин по типоразмеру</h6>
+                    </div>
+                    <div
+                        class="bg-[#F8F8F8] w-[180px] h-[60px] mt-[70px] rounded-se-[10px] items-center border-[2px] border-[#E6E9EC]">
+                        <h6 class="text-[#8E9499] ml-[50px] mt-[18px]">По авто</h6>
+                    </div>
+                </div>
+                <div class="w-[570px] h-[280px] bg-[#F8F8F8] border-[2px] border-[#E6E9EC] ml-[200px]">
+                    <div class="flex gap-[12px] mt-[20px]">
+                        <select class="w-[150px] h-[50px] bg-[#FFFFFF] rounded-[10px] ml-[20px]">
+                            <option value="">Ширина</option>
+                            <option value=""></option>
+                        </select>
+                        <select class="w-[150px] h-[50px] bg-[#FFFFFF] rounded-[10px]">
+                            <option value="">Высота</option>
+                            <option value=""></option>
+                        </select>
+                        <select class="w-[150px] h-[50px] bg-[#FFFFFF] rounded-[10px]">
+                            <option value="">Диаметр</option>
+                            <option value=""></option>
+                        </select>
+                    </div>
+                    <div class=" flex gap-[12px] mt-[20px]">
+                        <select class="w-[150px] h-[50px] bg-[#FFFFFF] rounded-[10px] ml-[20px]">
+                            <option value="">Производитель</option>
+                            <option value=""></option>
+                        </select>
+                        <select class="w-[150px] h-[50px] bg-[#FFFFFF] rounded-[10px]">
+                            <option value="">Сезон</option>
+                            <option value=""></option>
+                        </select>
+                        <select class="w-[150px] h-[50px] bg-[#FFFFFF] rounded-[10px]">
+                            <option value="">Вн-ий Диаметр</option>
+                            <option value=""></option>
+                        </select>
+
+                    </div>
+                    <div data-aos="fade-up" class=" flex gap-[12px] mt-[20px]">
+                        <select class="w-[150px] h-[50px] bg-[#FFFFFF] rounded-[10px] ml-[20px]">
+                            <option value="">DIA</option>
+                            <option value=""></option>
+                        </select>
+                        <select class="w-[150px] h-[50px] bg-[#FFFFFF] rounded-[10px]">
+                            <option value="">ET</option>
+                            <option value=""></option>
+                        </select>
+                        <select class="w-[150px] h-[50px] bg-[#FFFFFF] rounded-[10px]">
+                            <option value="">Тип диска</option>
+                            <option value=""></option>
+                        </select>
+
+                    </div>
+                    <button
+                        class=" ml-[20px] mt-[14px] w-[130px] h-[40px] bg-[#F4D84F] rounded-[10px] hover:bg-yellow-600">
+                        <h6>Подобрать</h6>
+                    </button>
+                </div>
+            </div>
+    </section>
+    <section class="container">
+        <img src="orig.png" alt="" class="w-[85%] h-[700px] mt-[50px] ml-[120px] rounded-[20px]">
+        <img src="default_splash.png" alt="" class="w-[85%] h-[500px] mt-[40px] ml-[120px] rounded-[20px]">
+    </section>
+    <section class="flex gap-[94px]">
+        <div data-aos="fade-up" class=" ml-[200px] mt-[65px]">
+            <div class="w-[470px] h-[130px] bg-[#F4D84F] flex gap-[10px] items-center rounded-[10px] hover:bg-yellow-600 duration-100">
+                <img src="Group 198.png" alt="" class="w-[190px] h-[140px] relative mt-[-50px]">
+                <h6>Шины</h6>
+                <img src="Caret down.png" alt="" class="w-[36px] h-[36px]">
+            </div>
+            <div class="w-[470px] h-[130px] bg-[#F4D84F] flex gap-[20px] items-center rounded-[10px] mt-[30px] hover:bg-yellow-600 duration-100">
+                <img src="Niche_Mulsanne_20x10_4456 1.png" alt=""
+                    class="w-[140px] h-[140px] relative mt-[-50px] ml-[20px]">
+                <h6>Диски</h6>
+                <img src="Caret down.png" alt="" class="w-[36px] h-[36px]">
+            </div>
+        </div>
+        <div data-aos="fade-up" class="w-[340px] h-[290px] bg-[#F4D84F] items-center rounded-[10px] mt-[65px] hover:bg-yellow-600 duration-100">
+            <div class="flex justify-center gap-[5px] mt-[20px]">
+                <h6>Мотошины</h6>
+                <img src="Caret down.png" alt="" class="w-[36px] h-[36px] hover:bg-yellow-600 duration-100">
+            </div>
+            <img src="Слой 1 1.png" alt="" class="ml-[100px] mt-[20px]">
+        </div>
+        <div data-aos="fade-up" class="w-[340px] h-[290px] bg-[#F4D84F] items-center rounded-[10px] mt-[65px] hover:bg-yellow-600 duration-100">
+            <div class="flex justify-center gap-[5px] mt-[20px]">
+                <h6>Грузовые</h6>
+                <img src="Caret down.png" alt="" class="w-[36px] h-[36px]">
+            </div>
+            <img src="gmhd_pass_side4-1024x386 1.png" alt="" class="ml-[74px] mt-[20px]">
+        </div>
+    </section>
+    <section class="container ml-[200px] mt-[80px]">
+        <h2 class="text-[40px]">Популярные шины</h2>
+        <div data-aos="fade-up" class="flex gap-[75px]">
+            <div class="w-[280px] h-[350px] border-[#E6E9EC] border-[2px] mt-[40px] rounded-[10px] opacity-[85%] hover:opacity-[100%]">
+                <img src="Group 80.png" alt="" class="pt-[5px] pl-[5px] w-[25px] h-[25px]">
+                <img src="image 6.png" alt="" class="ml-[70px] mb-[30px]">
+                <img src="Group 4.png" alt="" class="pl-[20px] mt-[5px]">
+                <img src="Group 204.png" alt="" class="pl-[20px] mt-[5px]">
+                <p class="pl-[20px] mt-[5px]">Yokohama BluEarth *Winter <br>V905 205 45 R17 88V</p>
+            </div>
+            <div data-aos="fade-up" class="w-[280px] h-[350px] border-[#E6E9EC] border-[2px] mt-[40px] rounded-[10px] opacity-[85%] hover:opacity-[100%]">
+                <img src="Group 80.png" alt="" class="pt-[5px] pl-[5px] w-[25px] h-[25px]">
+                <img src="image 6.png" alt="" class="ml-[70px] mb-[30px]">
+                <img src="Group 4.png" alt="" class="pl-[20px] mt-[5px]">
+                <img src="Group 204.png" alt="" class="pl-[20px] mt-[5px]">
+                <p class="pl-[20px] mt-[5px]">Yokohama BluEarth *Winter <br>V905 205 45 R17 88V</p>
+            </div>
+            <div data-aos="fade-up" class="w-[280px] h-[350px] border-[#E6E9EC] border-[2px] mt-[40px] rounded-[10px] opacity-[85%] hover:opacity-[100%]">
+                <img src="Group 80.png" alt="" class="pt-[5px] pl-[5px] w-[25px] h-[25px]">
+                <img src="image 6.png" alt="" class="ml-[70px] mb-[30px]">
+                <img src="Group 4.png" alt="" class="pl-[20px] mt-[5px]">
+                <img src="Group 204.png" alt="" class="pl-[20px] mt-[5px]">
+                <p class="pl-[20px] mt-[5px]">Yokohama BluEarth *Winter <br>V905 205 45 R17 88V</p>
+            </div>
+            <div data-aos="fade-up" class="w-[280px] h-[350px] border-[#E6E9EC] border-[2px] mt-[40px] rounded-[10px] opacity-[85%] hover:opacity-[100%]">
+                <img src="Group 80.png" alt="" class="pt-[5px] pl-[5px] w-[25px] h-[25px]">
+                <img src="image 6.png" alt="" class="ml-[70px] mb-[30px]">
+                <img src="Group 4.png" alt="" class="pl-[20px] mt-[5px]">
+                <img src="Group 204.png" alt="" class="pl-[20px] mt-[5px]">
+                <p class="pl-[20px] mt-[5px]">Yokohama BluEarth *Winter <br>V905 205 45 R17 88V</p>
+            </div>
+        </div>
+        <br><br>
+        <h2 class="text-[40px]">Популярные мотошины</h2>
+        <div data-aos="fade-up" class="flex gap-[75px]">
+            <div class="w-[280px] h-[350px] border-[#E6E9EC] border-[2px] mt-[40px] rounded-[10px] opacity-[85%] hover:opacity-[100%]">
+                <img src="Group 80.png" alt="" class="pt-[5px] pl-[5px] w-[25px] h-[25px]">
+                <img src="Слой 1 1.png" alt="" class="ml-[70px] mb-[30px]">
+                <img src="Group 4.png" alt="" class="pl-[20px] mt-[5px]">
+                <img src="Group 204.png" alt="" class="pl-[20px] mt-[5px]">
+                <p class="pl-[20px] mt-[5px]">Yokohama BluEarth *Winter <br>V905 205 45 R17 88V</p>
+            </div>
+            <div data-aos="fade-up" class="w-[280px] h-[350px] border-[#E6E9EC] border-[2px] mt-[40px] rounded-[10px] opacity-[85%] hover:opacity-[100%]">
+                <img src="Group 80.png" alt="" class="pt-[5px] pl-[5px] w-[25px] h-[25px]">
+                <img src="Слой 1 1.png" alt="" class="ml-[70px] mb-[30px]">
+                <img src="Group 4.png" alt="" class="pl-[20px] mt-[5px]">
+                <img src="Group 204.png" alt="" class="pl-[20px] mt-[5px]">
+                <p class="pl-[20px] mt-[5px]">Yokohama BluEarth *Winter <br>V905 205 45 R17 88V</p>
+            </div>
+            <div class="w-[280px] h-[350px] border-[#E6E9EC] border-[2px] mt-[40px] rounded-[10px] opacity-[85%] hover:opacity-[100%]">
+                <img src="Group 80.png" alt="" class="pt-[5px] pl-[5px] w-[25px] h-[25px]">
+                <img src="Слой 1 1.png" alt="" class="ml-[70px] mb-[30px]">
+                <img src="Group 4.png" alt="" class="pl-[20px] mt-[5px]">
+                <img src="Group 204.png" alt="" class="pl-[20px] mt-[5px]">
+                <p class="pl-[20px] mt-[5px]">Yokohama BluEarth *Winter <br>V905 205 45 R17 88V</p>
+            </div>
+            <div class="w-[280px] h-[350px] border-[#E6E9EC] border-[2px] mt-[40px] rounded-[10px] opacity-[85%] hover:opacity-[100%]">
+                <img src="Group 80.png" alt="" class="pt-[5px] pl-[5px] w-[25px] h-[25px]">
+                <img src="Слой 1 1.png" alt="" class="ml-[70px] mb-[30px]">
+                <img src="Group 4.png" alt="" class="pl-[20px] mt-[5px]">
+                <img src="Group 204.png" alt="" class="pl-[20px] mt-[5px]">
+                <p class="pl-[20px] mt-[5px]">Yokohama BluEarth *Winter <br>V905 205 45 R17 88V</p>
+            </div>
+        </div>
+        <br><br>
+        <h2 class="text-[40px]">Популярные диски</h2>
+        <div class="flex gap-[75px]">
+            <div class="w-[280px] h-[350px] border-[#E6E9EC] border-[2px] mt-[40px] rounded-[10px] opacity-[85%] hover:opacity-[100%]">
+                <img src="Group 80.png" alt="" class="pt-[5px] pl-[5px] w-[25px] h-[25px]">
+                <img src="image 44.png" alt="" class="ml-[70px] mb-[30px]">
+                <img src="Group 4.png" alt="" class="pl-[20px] mt-[5px]">
+                <img src="Group 204.png" alt="" class="pl-[20px] mt-[5px]">
+                <p class="pl-[20px] mt-[5px]">Yokohama BluEarth *Winter <br>V905 205 45 R17 88V</p>
+            </div>
+            <div class="w-[280px] h-[350px] border-[#E6E9EC] border-[2px] mt-[40px] rounded-[10px] opacity-[85%] hover:opacity-[100%]">
+                <img src="Group 80.png" alt="" class="pt-[5px] pl-[5px] w-[25px] h-[25px]">
+                <img src="image 44.png" alt="" class="ml-[70px] mb-[30px]">
+                <img src="Group 4.png" alt="" class="pl-[20px] mt-[5px]">
+                <img src="Group 204.png" alt="" class="pl-[20px] mt-[5px]">
+                <p class="pl-[20px] mt-[5px]">Yokohama BluEarth *Winter <br>V905 205 45 R17 88V</p>
+            </div>
+            <div class="w-[280px] h-[350px] border-[#E6E9EC] border-[2px] mt-[40px] rounded-[10px] opacity-[85%] hover:opacity-[100%]">
+                <img src="Group 80.png" alt="" class="pt-[5px] pl-[5px] w-[25px] h-[25px]">
+                <img src="image 44.png" alt="" class="ml-[70px] mb-[30px]">
+                <img src="Group 4.png" alt="" class="pl-[20px] mt-[5px]">
+                <img src="Group 204.png" alt="" class="pl-[20px] mt-[5px]">
+                <p class="pl-[20px] mt-[5px]">Yokohama BluEarth *Winter <br>V905 205 45 R17 88V</p>
+            </div>
+            <div class="w-[280px] h-[350px] border-[#E6E9EC] border-[2px] mt-[40px] rounded-[10px] opacity-[85%] hover:opacity-[100%]">
+                <img src="Group 80.png" alt="" class="pt-[5px] pl-[5px] w-[25px] h-[25px]">
+                <img src="image 44.png" alt="" class="ml-[70px] mb-[30px]">
+                <img src="Group 4.png" alt="" class="pl-[20px] mt-[5px]">
+                <img src="Group 204.png" alt="" class="pl-[20px] mt-[5px]">
+                <p class="pl-[20px] mt-[5px]">Yokohama BluEarth *Winter <br>V905 205 45 R17 88V</p>
+            </div>
+        </div>
+    </section>
+    <section class="container ml-[200px]">
+        <br><br>
+        <h2 class="text-[40px]">Популярные пользователи</h2>
+        <div class=" ml-[40px] mt-[20px] flex gap-[20px]">
+            <div>
+                <div class="w-[190px] h-[80px] bg-[#F8F8F8] rounded-[10px]">
+                    <img src="image 7.png" alt="" class="ml-[22px] pt-[18px]">
+                </div>
+
+                <div class="w-[190px] h-[80px] bg-[#F8F8F8] rounded-[10px] mt-[10px]">
+                    <img src="image 7.png" alt="" class="ml-[22px] pt-[18px]">
+                </div>
+                <div class="w-[190px] h-[80px] bg-[#F8F8F8] rounded-[10px] mt-[10px]">
+                    <img src="image 7.png" alt="" class="ml-[22px] pt-[18px]">
+                </div>
+            </div>
+            <div>
+                <div class="w-[190px] h-[80px] bg-[#F8F8F8] rounded-[10px]">
+                    <img src="image 8.png" alt="" class="ml-[22px] pt-[22px]">
+                </div>
+
+                <div class="w-[190px] h-[80px] bg-[#F8F8F8] rounded-[10px] mt-[10px]">
+                    <img src="image 8.png" alt="" class="ml-[22px] pt-[22px]">
+                </div>
+                <div class="w-[190px] h-[80px] bg-[#F8F8F8] rounded-[10px] mt-[10px]">
+                    <img src="image 8.png" alt="" class="ml-[22px] pt-[22px]">
+                </div>
+            </div>
+            <div>
+                <div class="w-[190px] h-[80px] bg-[#F8F8F8] rounded-[10px]">
+                    <img src="image 9.png" alt="" class="ml-[22px] pt-[18px]">
+                </div>
+
+                <div class="w-[190px] h-[80px] bg-[#F8F8F8] rounded-[10px] mt-[10px]">
+                    <img src="image 9.png" alt="" class="ml-[22px] pt-[18px]">
+                </div>
+                <div class="w-[190px] h-[80px] bg-[#F8F8F8] rounded-[10px] mt-[10px]">
+                    <img src="image 9.png" alt="" class="ml-[22px] pt-[18px]">
+                </div>
+            </div>
+            <div>
+                <div class="w-[190px] h-[80px] bg-[#F8F8F8] rounded-[10px]">
+                    <img src="image 7.png" alt="" class="ml-[22px] pt-[18px]">
+                </div>
+
+                <div class="w-[190px] h-[80px] bg-[#F8F8F8] rounded-[10px] mt-[10px]">
+                    <img src="image 7.png" alt="" class="ml-[22px] pt-[18px]">
+                </div>
+                <div class="w-[190px] h-[80px] bg-[#F8F8F8] rounded-[10px] mt-[10px]">
+                    <img src="image 7.png" alt="" class="ml-[22px] pt-[18px]">
+                </div>
+            </div>
+            <div>
+                <div class="w-[190px] h-[80px] bg-[#F8F8F8] rounded-[10px]">
+                    <img src="image 8.png" alt="" class="ml-[22px] pt-[22px]">
+                </div>
+
+                <div class="w-[190px] h-[80px] bg-[#F8F8F8] rounded-[10px] mt-[10px]">
+                    <img src="image 8.png" alt="" class="ml-[22px] pt-[22px]">
+                </div>
+                <div class="w-[190px] h-[80px] bg-[#F8F8F8] rounded-[10px] mt-[10px]">
+                    <img src="image 8.png" alt="" class="ml-[22px] pt-[22px]">
+                </div>
+            </div>
+            <div>
+                <div class="w-[190px] h-[80px] bg-[#F8F8F8] rounded-[10px]">
+                    <img src="image 9.png" alt="" class="ml-[22px] pt-[18px]">
+                </div>
+
+                <div class="w-[190px] h-[80px] bg-[#F8F8F8] rounded-[10px] mt-[10px]">
+                    <img src="image 9.png" alt="" class="ml-[22px] pt-[18px]">
+                </div>
+                <div class="w-[190px] h-[80px] bg-[#F8F8F8] rounded-[10px] mt-[10px]">
+                    <img src="image 9.png" alt="" class="ml-[22px] pt-[18px]">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container ml-[200px]">
+        <br><br>
+        <h2 class="text-[40px]">Интернет-магазин шин Шины Мигом</h2>
+        <p class="text-[20px]">В интернет-магазине шин Шины Мигом вы можете купить шины известных брендов. Подбор осуществляется как по
+            типоразмеру, так и по марке авто<br> Предоставляем услуги по шиномонтажу и сезонному хранению шин. В
+            интернет-магазине шин Шины Мигом вы можете купить шины известных брендов.<br>  Подбор осуществляется как по
+            типоразмеру, так и по марке авто. Предоставляем услуги по шиномонтажу и сезонному хранению шин.В <br>
+            интернет-магазине шин Шины Мигом вы можете купить шины известных брендов. Подбор осуществляется как по
+            типоразмеру, так и по марке авто. <br>Предоставляем услуги по шиномонтажу и сезонному хранению шин.</p>
+    </section>
+    <footer class="container w-[100%] h-[400px] bg-[#323232] mt-[200px]">
+        <div class="ml-[300px] pt-[60px] flex gap-[200px]">
+            <div>
+                <h6 class="text-white text-[20px]">Каталог</h6>
+                <a href="" class="text-[#9E9E9E] hover:text-yellow-400 transition-all">Шины</a>
+                <br>
+                <a href="" class="text-[#9E9E9E] hover:text-yellow-400 transition-all">Диски</a>
+                <br>
+                <a href="" class="text-[#9E9E9E] hover:text-yellow-400 transition-all">Пункты выдачи</a>
+            </div>
+            <div>
+                <h6 class="text-white text-[20px]">О магазине</h6>
+                <a href="" class="text-[#9E9E9E] hover:text-yellow-400 transition-all">Оплата и доставка</a>
+                <br>
+                <a href="" class="text-[#9E9E9E] hover:text-yellow-400 transition-all">Гарантия</a>
+                <br>
+                <a href="" class="text-[#9E9E9E] hover:text-yellow-400 transition-all">Акции</a>
+                <br>
+                <a href="" class="text-[#9E9E9E] hover:text-yellow-400 transition-all">Блог</a>
+            </div>
+            <div>
+                <h6 class="text-white text-[20px]">Контакты</h6>
+                <div class="flex gap-1">
+                <img src="Phone.png" alt="">
+                <a href="" class="text-[#9E9E9E] hover:text-yellow-400 transition-all">8 (800) 555-13-26</a></div>
+                <div class="flex gap-1">
+                <img src="Envelope.png" alt="">
+                <a href="" class="text-[#9E9E9E] hover:text-yellow-400 transition-all">info@shiny-migom.ru</a></div>
+                <div class="flex gap-1">
+                <img src="Instagram.png" alt="">
+                <a href="" class="text-[#9E9E9E] hover:text-yellow-400 transition-all">Мы в инстаграм</a></div>
+            </div>
+            <div>
+                <a href="" class="text-[#9E9E9E] hover:text-yellow-400 transition-all">Политика конфидециальности</a>
+                <br>
+                <a href="" class="text-[#9E9E9E] hover:text-yellow-400 transition-all">Договор оферты</a>
+                <br>
+                <a href="" class="text-[#9E9E9E] hover:text-yellow-400 transition-all">Карта сайта</a>
+                <br>
+                <a href="" class="text-[#9E9E9E] hover:text-yellow-400 transition-all">DATSKY - создание и продвижение сайтов</a>
+                <img src="payments 1.png" alt="">
+            </div>
+        </div>
+        <br>
+        <hr>
+     <p class="text-[#9E9E9E] ml-[300px] pr-[300px]">Обращаем ваше внимание на то, что данный сайт носит исключительно информационный характер и ни при каких условиях не является публичной офертой, определяемой положениями Статьи 437 (2) Гражданского кодекса Российской Федерации. Наличие товара и его стоимость может отличаться от заявленной на данном сайте. Указанное выше наличие в нашем интернет-магазине является ориентировочным и не учитывает бронирование товара при оплате по безналичному расчету, а также продажи, которые произошли с момента последнего обновления данных. Вы можете оставить заявку на резерв товара оформив заказ на сайте. Бронирование товара осуществляется после подтверждения заказа менеджером.
+    </p>
+    </footer>
+
+</body>
+</html>
